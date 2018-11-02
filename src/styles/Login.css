@@ -1,0 +1,60 @@
+.Login {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    background-color: var(--gray1);
+}
+.Login-form {
+    max-width: 275px;
+}
+.Login-email, .Login-password {
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-bottom: none;
+    padding: .5rem;
+    width: 100%;
+}
+.Login-email {
+    border-radius: 4px 4px 0 0;
+    border-top: 1px solid var(--primary);
+}
+.Login-password {
+    border-top: 1px solid #d7d7d7;
+}
+
+.Login-email::placeholder, .Login-password::placeholder {
+    color: #d7d7d7;
+    font-size: .8rem;
+}
+.Login-email:focus, .Login-password:focus {
+    border-color: var(--indigo);
+    outline: 0;
+}
+.Login-button {
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.Login-remember-me {
+    text-align: center;
+    font-size: .8rem;
+    color: var(--gray);
+}
+.Login-forgaten-password {
+    display: block;
+    font-size: .8rem;
+}
+.Login-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

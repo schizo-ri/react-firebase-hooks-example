@@ -1,0 +1,25 @@
+{
+  "name": "cra-fb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.5.6",
+    "firebase-tools": "^6.0.1",
+    "react": "next",
+    "react-dom": "next",
+    "react-router-dom": "next",
+    "react-scripts": "next"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">1%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
