@@ -77,7 +77,8 @@ function SignIn(props) {
           <button
             type="button"
             className="_btn _btn-link _text-center _w100 _upper"
-            onClick={() => props.handleReset(!props.reset)}>
+            onClick={() => props.handleReset(!props.reset)}
+          >
             <small>Forgot Your Password?</small>
           </button>
         </div>
@@ -104,7 +105,8 @@ function PasswordReset(props) {
           <button
             type="button"
             className="_btn _btn-link _text-center _w100 _upper"
-            onClick={() => props.handleReset(!props.reset)}>
+            onClick={() => props.handleReset(!props.reset)}
+          >
             <small>Back to login</small>
           </button>
         </div>
@@ -114,4 +116,3 @@ function PasswordReset(props) {
 }
 
 export default Login
-export { PasswordReset }

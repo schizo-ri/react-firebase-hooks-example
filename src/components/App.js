@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
-import { __RouterContext } from 'react-router'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { auth } from '../firebase/firebase'
 import Navigation from './Navigation'
